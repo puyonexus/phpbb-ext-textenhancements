@@ -1,0 +1,5 @@
+services:
+    puyonexus.textenhancements.listener:
+        class: puyonexus\textenhancements\event\main_listener
+        tags:
+            - { name: event.listener }
